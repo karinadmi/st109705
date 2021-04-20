@@ -1,3 +1,7 @@
+' *****************************************************************************
+
+'' FILENAME: adduser
+
 '' *****************************************************************************
 
 '' ABOUT THIS FILE
@@ -17,8 +21,34 @@
 ''*****************************************
 
 ''SCRIPT
-''Test cases for phase 1
+AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
 
+AddUser "rnmith", "password", "Nancy", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+
+ 
+
+Let's modify (changes shown in bold) it to: 
+ 
+
+'' *****************************************************************************
+
+'' ABOUT THIS FILE
+
+'' AUTHOR IDENTITY:
+'' Initials Name/Company
+
+'' -------- -----------------------------------------
+
+'' rw Rick Wagonner ABC INC
+'' REVISION HISTORY:
+'' Date/Initials Comments
+
+'' --------- -------------------------------
+'' rw Created for LoanApp 2.1
+
+''*****************************************
+
+''SCRIPT
 
 ''Valid input
 AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
